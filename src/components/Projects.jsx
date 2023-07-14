@@ -81,7 +81,7 @@ const Projects = (props) => {
             <div className="background-image" style={{ backgroundImage: `url(${darkSkyBackground})` }}></div>
             <div className='nav-bar'>
                 <div className='icon-container'>
-                    <Link to="/">
+                    <Link to="/portfolio-site">
                         <div><img src={kicon} className='k-icon' alt="K Icon"></img></div>
                         <div><img src={micon} className='m-icon' alt="M Icon"></img></div>
                     </Link>
