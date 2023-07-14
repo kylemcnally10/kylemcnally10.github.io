@@ -21,7 +21,7 @@ const Projects = (props) => {
         {
             name: "Picky",
             language: "Python/Flask",
-            display: "Picky",
+            display: "picky",
             description:
                 "A Full Stack Python/Flask app that allows two users to individually search for restaurants and then decide together on a place to eat with the goal of reducing time spent and frustration.",
             image: require("../static/images/Picky/FinalCroppedSlider.gif"),
@@ -30,7 +30,7 @@ const Projects = (props) => {
         {
             name: "PokeMERN",
             language: "MERN",
-            display: "PokeMERN",
+            display: "pokemern",
             description:
                 "A Full Stack MERN app that allows users to battle Pokemon online. This project is not deployed for Copyright purposes and was built only for educational purposes!",
             image: require("../static/images/PokeMERN.gif"),
@@ -39,7 +39,7 @@ const Projects = (props) => {
         {
             name: "Auction House",
             language: "C#/.NET",
-            display: "AuctionHouse",
+            display: "auction-house",
             description:
                 "A Full Stack online auction app built using C#/.NET to facilitate the buying and selling of products online.",
             image: require("../static/images/AuctionHouse/DarkModeDemo.gif"),
