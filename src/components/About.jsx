@@ -30,13 +30,13 @@ const About = (props) => {
             <div className="background-image" style={{ backgroundImage: `url(${darkSkyBackground})` }}></div>
             <div className='nav-bar'>
                 <div className='icon-container'>
-                    <Link to="/portfolio-site">
+                    <Link to="/">
                         <div><img src={kicon} className='k-icon' alt="K Icon"></img></div>
                         <div><img src={micon} className='m-icon' alt="M Icon"></img></div>
                     </Link>
                 </div>
                 <div className='title-container'>
-                    <div className='project-title'>About Me!</div>
+                    <div className='project-title'>About Me</div>
                 </div>
                 <div className="dropdown headshot-container">
                     <img

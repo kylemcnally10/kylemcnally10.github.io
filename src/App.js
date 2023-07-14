@@ -11,12 +11,12 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/portfolio-site" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/picky" element={<Picky />} />
-          <Route path="/pokemern" element={<PokeMERN />} />
-          <Route path="/auction-house" element={<AuctionHouse />} />
+          <Route path="/projects/picky" element={<Picky />} />
+          <Route path="/projects/pokemern" element={<PokeMERN />} />
+          <Route path="/projects/auction-house" element={<AuctionHouse />} />
         </Routes>
       </div>
     </Router>
