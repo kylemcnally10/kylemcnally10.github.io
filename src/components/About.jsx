@@ -36,7 +36,7 @@ const About = (props) => {
                     </Link>
                 </div>
                 <div className='title-container'>
-                    <div className='project-title'>About Me</div>
+                    <div className='project-title'>About Me!</div>
                 </div>
                 <div className="dropdown headshot-container">
                     <img
