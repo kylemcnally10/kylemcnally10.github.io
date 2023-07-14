@@ -46,11 +46,11 @@ const Home = () => {
             <h1 className="name">Kyle McNally</h1>
             <p className="description">An Irvine based Software Engineer and Full Stack Developer</p>
             <div className="links-row">
-                <Link to="/projects" className="project-link">
+                <Link to="/portfolio-site/projects" className="project-link">
                     <img src={rightArrow} alt="Arrow" className="right-arrow-icon" />
                     My Projects
                 </Link>
-                <Link to="/about" className="about-link">
+                <Link to="/portfolio-site/about" className="about-link">
                     About Me
                     <img src={leftArrow} alt="Arrow" className="left-arrow-icon" />
                 </Link>
