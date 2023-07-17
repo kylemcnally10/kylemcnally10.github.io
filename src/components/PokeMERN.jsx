@@ -68,7 +68,7 @@ const PokeMERN = (props) => {
             <div className="background-image" style={{ backgroundImage: `url(${darkSkyBackground})` }}></div>
             <div className='nav-bar'>
                 <div className='icon-container'>
-                    <Link to="/portfolio-site">
+                    <Link to="/">
                         <div><img src={kicon} className='k-icon' alt="K Icon"></img></div>
                         <div><img src={micon} className='m-icon' alt="M Icon"></img></div>
                     </Link>
@@ -120,7 +120,7 @@ const PokeMERN = (props) => {
                     ))}
                 </div>
                 <div className="back-projects">
-                    <Link to="/portfolio-site/projects" className="home-link">
+                    <Link to="/projects" className="home-link">
                         <img src={leftArrow} alt="Arrow" className="arrow-icon" />
                         Back to Projects
                     </Link>
