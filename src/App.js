@@ -8,15 +8,15 @@ import About from './components/About';
 
 function App() {
   return (
-    <Router basename="/portfolio-site">
+    <Router basename="/">
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/portfolio-site/about" element={<About />} />
-          <Route path="/portfolio-site/projects" element={<Projects />} />
-          <Route path="/portfolio-site/projects/picky" element={<Picky />} />
-          <Route path="/portfolio-site/projects/pokemern" element={<PokeMERN />} />
-          <Route path="/portfolio-site/projects/auction-house" element={<AuctionHouse />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/picky" element={<Picky />} />
+          <Route path="/projects/pokemern" element={<PokeMERN />} />
+          <Route path="/projects/auction-house" element={<AuctionHouse />} />
         </Routes>
       </div>
     </Router>
